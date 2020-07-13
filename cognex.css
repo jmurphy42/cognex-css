@@ -1,0 +1,32 @@
+/* Custom css for Cognex Jira */
+
+/* Shrink header */
+#ghx-view-selector {
+  display: flex;
+  flex-direction: row;
+}
+#ghx-view-selector > h1 {
+  display: flex;
+}
+#ghx-view-selector > span,
+#ghx-view-selector > * > span {
+  display: flex;
+  margin: 0 10px;
+  align-items: flex-end;
+  padding-bottom: 0;
+}
+#ghx-board-name {
+  font-variant-caps: all-small-caps;
+}
+
+/* Shrink quick filter buttons */
+#js-work-quickfilters {
+    min-height: 22px;
+}
+.ghx-controls-filters dd a {
+    padding: 3px 7px;
+}
+.ghx-controls-plan,
+.ghx-controls-work {
+    min-height: 0;
+}
